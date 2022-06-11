@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="HtRXuPo5UJP507ZKt8Ms-yZJCVyKsuWOXAKZvlmmqQI" />
+    <title>Игорь Приймак - Front-End</title>
+    
+    <meta name="Keywords" content="HTML, CSS, JavaScript, Front-End, web-developer, Игорь, Приймак, junior, фронт-енд,веб-разработчик,веб-разработка, Igor Pryimak, Igor, Pryimak, Игорь Приймак, джуниор, создание сайтов, сайт, верстка, адаптация сайтов"> 
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  -->
+    
+    <!-- og tags -->
+    
+    <meta name="description" content="Меня зовут Игорь. Я начинающий Web-разработчик из города Одесса. Владею языками HTML, CSS. Имею базовые знания в языке программирования JavaScript.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Игорь Приймак - Front-End разработчик">
+    <meta property="og:description" content="Меня зовут Игорь. Я начинающий Web-разработчик из города Одесса. Владею языками HTML, CSS. Имею базовые знания в языке программирования JavaScript.">
+    <meta property="og:image" content="img/og/main_photo.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Игорь Приймак - Front-End разработчик">
+    <meta property="twitter:description" content="Меня зовут Игорь. Я начинающий Web-разработчик из города Одесса. Владею языками HTML, CSS. Имею базовые знания в языке программирования JavaScript.">
+    <meta property="twitter:image" content="img/og/main_photo.jpg">
+    
+    <!--  -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    
+    <section id="up" class="promo">
+        <div class="promo__overlay">
+            <div class="promo__change-lang">
+
+                <button value="ru" class="promo__change-lang-ru">Ru</button>
+                <button value="ua" class="promo__change-lang-ua">En</button>
+                <button value="en" class="promo__change-lang-en">Ua</button>
+
+
+                <!-- <button value="ru" class="promo__change-lang-ru"><img src="img/flags/ru.png" alt="ru"></button>
+                <button value="ua" class="promo__change-lang-ua"><img src="img/flags/ua.png" alt="ua"></button>
+                <button value="en" class="promo__change-lang-en"><img src="img/flags/en.png" alt="en"></button> -->
+            </div>
+
+            <div class="promo__content">
+                <h2 class="title promo__title lng-promo__title">Привет,</h2>
+                <h1 class="title title_fz56 promo__subtitle lng-promo__subtitle">Меня зовут Игорь Приймак</h1>
+                <div class="title promo__info lng-promo__info">front-end разработчик</div>
+                <a href="#about" class="promo__btn lng-promo__btn">подробнее</a>
+
+                <div class="promo__icons">
+                    <a target="_blank" href="https://www.instagram.com/marikparrish/"><i
+                            class="animate__animated wow animate__flipInX fa-brands fa-instagram promo__icons-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/igor-pryimak-983b76221/"><i
+                            class="animate__animated wow animate__flipInX fa-brands fa-linkedin promo__icons-linkedin"></i></a>
+                    <a target="_blank" href="https://vk.com/parrishfamily"><i
+                            class="animate__animated wow animate__flipInX fa-brands fa-vk promo__icons-vk"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="title title_main about__title lng-about__title">Обо мне</h2>
+            <div class="title title_subtitle about__subtitle lng-about__subtitle">Позвольте представиться</div>
+            <div class="about__intro">
+                <img class="about__photo" src="img/main_photo.jpg" alt="main_photo">
+                <div class="about__descr lng-about__descr">Меня зовут Игорь. Я начинающий Web-разработчик из города Одесса. Владею языками HTML, CSS. Имею базовые знания в языке программирования JavaScript. </div>
+            </div>
+
+            <div class="about__wrapper">
+                <div class="about__profile">
+                    <h3 class="title title_fz18 about__main lng-about__main">Профиль</h3>
+                    <!-- <div class="about__text">Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in
+                        magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</div> -->
+
+
+                    <div class="about__info">
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info lng-name">Имя:</div>
+                            <div class="about__info-descr lng-myname-igor">Игорь Приймак</div>
+                        </div>
+
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info lng-age">Возраст:</div>
+                            <div class="about__info-descr">19</div>
+                        </div>
+
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info lng-rank">Работа:</div>
+                            <div class="about__info-descr lng-myrank">Front-End разработчик</div>
+                        </div>
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info lng-gmail">Почта:</div>
+                            <div class="about__info-descr">marikparrish@gmail.com</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="about__skills">
+                    <h3 class="title title_fz18 about__main lng-skills">Навыки</h3>
+                    <!-- <div class="about__text">Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in
+                        magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</div> -->
+
+
+
+                    <div class="about__info">
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info">HTML5</div>
+                            <div class="about__info-bar">
+                                <div><span class="counter">100%</span></div>
+                            </div>
+                        </div>
+
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info">CSS3</div>
+                            <div class="about__info-bar">
+                                <div><span class="counter">100%</span></div>
+                            </div>
+                        </div>
+
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info">SASS/SCSS</div>
+                            <div class="about__info-bar">
+                                <div><span class="counter">100%</span></div>
+                            </div>
+                        </div>
+                        
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info">Bootstrap</div>
+                            <div class="about__info-bar">
+                                <div><span class="counter">90%</span></div>
+                            </div>
+                        </div>
+                        
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info">Photoshop</div>
+                            <div class="about__info-bar">
+                                <div><span class="counter">70%</span></div>
+                            </div>
+                        </div>
+
+                        <div class="about__info-item">
+                            <div class="title title_fz18 about__main-info">JS</div>
+                            <div class="about__info-bar">
+                                <div><span class="counter">50%</span></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <div class="container">
+            <h2 class="title title_main resume__title lng-resume__title">Резюме</h2>
+            <div class="title title_subtitle resume__subtitle lng-resume__subtitle">Больше о моих навыках</div>
+            <!-- <div class="title_text resume__text">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing
+                dolore
+                officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</div> -->
+
+            <div class="title_main resume__education lng-resume__education">Образование</div>
+
+            <div class="resume__wrapper">
+
+                <div class="resume__block">
+                    <div class="resume__item resume__formation">
+                        <div class="resume__item-degree lng-udemy">Udemy - Web-разработчик</div>
+                        <div class="resume__item-data lng-udemy_data">Февраль 2022 - Апрель 2022</div>
+                    </div>
+
+                    <div class="resume__item">
+                        <div class="resume__item-icon">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                    </div>
+
+                    <div class="resume__item resume__line">
+                        <div class="resume__item-title lng-udemy_info">Udemy Курсы</div>
+                        <div class="resume__item-divider"></div>
+                        <div class="resume__item-descr lng-udemy_descr">Курсы Udemy по Web-разработке, на которых я научился работать с планировщиком задач Gulp, Git, использовать методологию БЭМ.</div>
+                    </div>
+                </div>
+
+                <div class="resume__block">
+                    <div class="resume__item resume__formation">
+                        <div class="resume__item-degree lng-univer">ВУЗ ОНТУ</div>
+                        <div class="resume__item-data lng-univer_data">Сентябрь 2020 - настоящее время</div>
+                    </div>
+
+                    <div class="resume__item">
+                        <div class="resume__item-icon">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                    </div>
+
+                    <div class="resume__item resume__line">
+                        <div class="resume__item-title lng-univer_info">ВУЗ</div>
+                        <div class="resume__item-divider"></div>
+                        <div class="resume__item-descr lng-univer_descr">Одесский Национальный Технологический Университет. Компьютерные науки. Кибербезопасность.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="title title_main portfolio__title lng-portfolio__title">Портфолио</h2>
+            <div class="title title_subtitle portfolio__subtitle lng-portfolio__subtitle">Несколько моих работ</div>
+            <!-- <div class="title_text portfolio__text">Lorem ipsum Do commodo in proident enim in dolor cupidatat
+                adipisicing dolore
+                officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</div> -->
+
+            <div class="portfolio__wrapper">
+                <div class="portfolio__row-first">
+
+                    <a href="uberx/index.html" target="_blank" class="portfolio__item">
+
+                        <div class="portfolio__item-overlay">
+                            <div class="portfolio__item-block">
+                                <div class="portfolio__item-text">UberX</div>
+                                <div class="portfolio__item-descr">Web Design</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item-img">
+                            <img src="img/works/uberx.jpg" alt="uberx">
+                        </div>
+                    </a>
+
+                    <a href="wordpress/index.html" target="_blank" class="portfolio__item">
+
+                        <div class="portfolio__item-overlay">
+                            <div class="portfolio__item-block">
+                                <div class="portfolio__item-text">WordPress</div>
+                                <div class="portfolio__item-descr">Web Design</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item-img">
+                            <img src="img/works/mac.jpg" alt="mac">
+                        </div>
+                    </a>
+
+                    <a href="pulse/index.html" target="_blank" class="portfolio__item">
+
+                        <div class="portfolio__item-overlay">
+                            <div class="portfolio__item-block">
+                                <div class="portfolio__item-text">Pulse</div>
+                                <div class="portfolio__item-descr">Web Design</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item-img">
+                            <img src="img/works/pulse.jpg" alt="salad">
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="portfolio__row-second">
+
+                    <a href="gamer/index.html" target="_blank" class="portfolio__item">
+
+                        <div class="portfolio__item-overlay">
+                            <div class="portfolio__item-block">
+                                <div class="portfolio__item-text">Games</div>
+                                <div class="portfolio__item-descr">Web Design</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item-img">
+                            <img src="img/works/games.jpg" alt="games">
+                        </div>
+                    </a>
+
+                    <div class="portfolio__item">
+
+                        <div class="portfolio__item-overlay">
+                            <div class="portfolio__item-block">
+                                <div class="portfolio__item-text">Coming Soon</div>
+                                <div class="portfolio__item-descr">Web Design</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item-img">
+                            <img src="img/works/clouds.jpg" alt="cloud">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item">
+
+                        <div class="portfolio__item-overlay">
+                            <div class="portfolio__item-block">
+                                <div class="portfolio__item-text">Coming Soon</div>
+                                <div class="portfolio__item-descr">Web Design</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item-img">
+                            <img src="img/works/lighthouse.jpg" alt="lighthouse">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="grey"></div>
+
+    <section class="services">
+        <div class="services__overlay"></div>
+        <div class="container">
+            <h2 class="title title_main services__title lng-services__title">Услуги</h2>
+            <div class="title title_subtitle services__subtitle lng-services__subtitle">Что я могу для Вас сделать?</div>
+            <!-- <div class="title_text services__text">Lorem ipsum Do commodo in proident enim in dolor cupidatat
+                adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.
+            </div> -->
+
+            <div class="services__wrapper owl-carousel owl-theme">
+                <!-- <div class="services__item">
+                    <div class="services__item-icon">
+                        <i class="fa-solid fa-earth-europe"></i>
+                    </div>
+                    <div class="services__item-title">Веб-дизайн</div>
+                    <div class="services__item-descr">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                        voluptas sit aspernatur aut odit aut fugit.
+                    </div>
+                </div> -->
+
+                <div class="services__item">
+                    <div class="services__item-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="services__item-title lng-web">Веб-разработка</div>
+                    <div class="services__item-descr lng-web_descr">
+                        Разработаю, сверстаю веб-сайт используя современные технологии. Адаптирую сайт под мобильные устройства. Оптимизирую скорость работы сайтов, проведу валидацию верстки по стандартам w3c.
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__item-icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div class="services__item-title lng-consult">Консультация</div>
+                    <div class="services__item-descr lng-consult_descr">
+                        Отвечу на технические вопросы, помогу решить вопросы связанные с созданием, оптимизацией и поддержкой веб-сайтов.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <a href="#up" class="pageup">
+        <i class="fa fa-long-arrow-up"></i>
+    </a>
+
+    <script src="https://kit.fontawesome.com/0a555e3325.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+@media (max-width:1245px){
+    .promo{
+        &__subtitle{
+            font-size: 50px;
+        }
+    }
+}
+
+@media (max-width:992px){
+    .promo{
+        &__title{
+            font-size: 2rem;
+        }
+        &__subtitle{
+            font-size: 40px;
+            line-height:40px;
+        }
+
+        &__info{
+            font-size: 18px;
+        }
+
+        &__btn{
+            font-size: 16px;
+            min-width: 210px;
+            &:after{
+                left: 11.3rem;
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .promo{
+        background-attachment: scroll;
+        background-size:auto 100vh;
+        &__title{
+            font-size: 1.7rem;
+        }
+
+        &__subtitle{
+            font-size: 30px;
+            line-height: 30px;
+        }
+        
+
+        &__info{
+            font-size: 16px;
+        }
+        
+    }
+    
+}
+
+@media (max-width:576px){
+    .promo{
+        // background: url('../img/intro-bg.jpg')  center 200%/cover no-repeat fixed;
+        &__content{
+            padding: 0 15px;
+        }
+        &__title{
+            font-size: 1.2rem;
+            line-height: 16px;
+        }
+        &__subtitle{
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        &__info{
+            font-size: 11px;
+            padding: 0 10px;
+        }
+
+        &__icons{
+            letter-spacing:0.4rem;
+        }
+
+        &__btn{
+            font-size: 13px;
+            min-width: 165px;
+            height: 50px;
+            &:after{
+                left: 9rem;
+                top: 14px;
+            }
+        }
+        
+    }
+    
+}
