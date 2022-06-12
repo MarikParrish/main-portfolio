@@ -30,8 +30,9 @@
     &__title{
         color:#cc005f;
         letter-spacing: .1rem;
-        line-height: 37px;
-        font-size: 2.3rem;
+        line-height: 30px;
+        // font-size: 2.3rem;
+        font-size: 30px;
         font-weight: bold;
     }
 
@@ -40,6 +41,7 @@
         line-height: 70px;
         color:#fff;
         font-weight: 400;
+        font-size: 60px;
     }
 
     &__info{
@@ -48,7 +50,6 @@
         color:#fff;
         text-transform: uppercase;
         letter-spacing:.2rem;
-        // width: 390px;
         padding: 0 20px;
         line-height: 20px;
         text-align: center;
@@ -105,7 +106,7 @@
     }
 
     &__change{
-        &-lang{
+        &_lang{
             display: flex;
             position: absolute;
             top: 10px;
@@ -113,7 +114,6 @@
             button{
                 text-align: center;
                 border:none;
-                // border-right:1px solid rgb(172, 172, 172);
                 border:2px solid #fff;
                 width: 35px;
                 height: 35px;
@@ -134,11 +134,11 @@
                     margin-right: 0;
                 }
             }
-
+            
             &-ru, &-ua{
                 // margin-right: 15px;
             }
-
+            
             &-ru, &-en, &-ua{
                 color:#fff;
                 text-transform: uppercase;
@@ -153,6 +153,12 @@
                         height: 90%;
                     }
                 }
+            }
+
+            &-active{
+                border-color:$main-color !important;
+                font-weight: bold;
+                color:$main-color;
             }
         }
     }

@@ -10,23 +10,11 @@ counters.forEach((item, i) =>{
     bars[i].style.width = item.innerHTML;
 });
 
-// const test = document.querySelector('.about__text');
-
-// test.addEventListener('mouseover',()=>{
-//     console.log('work it');
-// });
 
 const overlayBlock = document.querySelectorAll('.portfolio__item'),
       overlay = document.querySelectorAll('.portfolio__item-overlay');
 
 
-
-
-// function overlayShow(){
-//     overlay.forEach(i =>{
-//         i.classList.add('test');
-//     });
-// }
 
 function overlayShow(){
     overlay.forEach(i =>{
@@ -119,14 +107,11 @@ $(document).ready(function(){
 
 
 
-
-
-
   // Language Change
 
 
     document
-        .querySelectorAll('.promo__change-lang button')
+        .querySelectorAll('.promo__change_lang button')
         .forEach((b) => b.addEventListener('click',setLang));
 
 
@@ -140,8 +125,29 @@ $(document).ready(function(){
 
             document.querySelector('title').innerHTML = langArr['title'][this.value];
           }
+
+
+
+    // changeLangActive
+
+    function changeLangActive(){
+        $('.promo__change_lang button').on('click',function(){
+            $(this).addClass('promo__change_lang-active').siblings().removeClass('promo__change_lang-active');
+        });
+    }
+    
+
+
+
+
+
+
+
+
+
+          
 overlayShow();
 overlayHide();
-
+changeLangActive();
 new WOW().init();
 });
