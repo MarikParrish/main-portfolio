@@ -36,4 +36,4 @@ function carousel(){
       });
 }
 
-module.exports = carousel;
+export default carousel;

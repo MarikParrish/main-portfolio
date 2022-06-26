@@ -59,4 +59,4 @@ function overlay(){
     overlayHide();
 }
 
-module.exports = overlay;
+export default overlay;

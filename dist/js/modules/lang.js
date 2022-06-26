@@ -265,4 +265,4 @@ function lang(){
     changeLangActive();
 }
 
-module.exports = lang;
+export default lang;
